@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="/stylesheets/index.css">
+</head>
+
+<body>
+    <title>EnounceAI</title>
+
+    <header>
+        <div id="header-container">
+            <h1 id="title">EnounceAI </h1>
+        </div>
+    </header>
+
+    <div id="main">
+        <div id="top">
+            <div id="phrase-container">            
+                <h1 class="phrase-title">Rewrite the following phrase, if grammatically incorrect is incorrect</p>
+            </div>
+            <div class="phrase-text">
+                <p class="phrase"><%= input%></p>
+            </div>
+        </div>
+
+
+        <div id="input-container">
+            <form action="/data" method="POST" style="width: 90vw; margin: auto; margin-top: 2%;">
+                <fieldset>
+                    <input type="text" name="userAnswer" placeholder="Input">
+                    <input type="text" name="correctAnswer" placeholder="<%= correct%>" value="<%= correct%>">
+                    <input type="submit" class="submit-button">
+                </fieldset>
+            </form>
+
+            <!-- 
+            <form action="/addRectangle" method="POST" style="width: 90vw; margin: auto; margin-top: 2%;">
+                <fieldset>
+                    <input type="text" name="recName" placeholder="Name"> <br>
+                    <input type="number" name="recHeight" placeholder="Height"> <br>
+                    <input type="number" name="recWidth" placeholder="Width"> <br>
+                    <input type="text" name="recColor" placeholder="Color"> <br>
+                    <input type="submit" class="custom-button">
+                </fieldset>
+            </form> -->
+        </div>
+
+        <div id="bottom">
+            <div class="phrase-text">
+                <p class="phrase"><%= correct%></p>
+            </div>
+            
+            <div id="buttons">
+                <button id="mic">
+                    <img src="https://cdn-icons-png.flaticon.com/512/60/60955.png" id="micimg">
+                </button>
+
+                <button id="speaker">
+                    <img id="speakerimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/2048px-Speaker_Icon.svg.png">
+                </button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+
+</html>

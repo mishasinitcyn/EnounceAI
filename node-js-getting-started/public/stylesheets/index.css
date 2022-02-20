@@ -1,0 +1,164 @@
+:root{
+    --orange: #FFD6A5;
+    --green: #CAFFBF;
+    --blue: #A0C4FF;
+    --yellow: #FDFFB6;
+    --purple: #BDB2FF;
+    --pink: #FFC6FF;
+    --red: #FFADAD;
+    --egg: #FFFFFC;
+}
+
+body{
+    margin: 0px;
+    background: var(--egg);
+    font-family:Arial, Helvetica, sans-serif;
+    overflow: auto;
+    height: 100vh;
+}
+
+header{
+    background: var(--green);
+    width: 100%;
+    height: 10vh;
+    margin-top: 0px;
+    display: flex;
+}
+
+#header-container{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    flex: 9;
+}
+
+.submit-button{
+    all: unset;
+    background-color: var(--yellow);
+    color: black;
+    padding: 10px;
+}
+
+#names-container{
+    flex: 1;
+    height: 100%;
+    margin: 0px;
+}
+
+#names-container p{
+    color: black;
+    margin: auto;
+    margin-top: 5vh;
+    font-size: 100%;
+    display: none;
+}   
+
+#main{
+    width: 100%;
+    height: 70vh;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#title{
+    margin: 0px;
+    color: black;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#top{
+    width: 90vw;
+    height: 30vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+#phrase-container{
+    border: 1px solid blue;
+    background: var(--blue);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#phrase{
+    font-size: 5vw;
+}
+
+.phrase-text{
+    text-align: center;
+    width: 100%;
+}
+
+
+fieldset{
+    width: 100%;
+}
+
+#inputbox{
+    width: 100%;
+    height: 100px;
+    overflow: auto;
+    font-size: 30px;
+}
+
+
+#bottom{
+    width: 80vw;
+    height: 20vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#output-container{
+    flex: 5;
+}
+
+#output{
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    margin-top: 5%;
+}
+
+#buttons-container{
+    flex: 1;
+    background: var(--pink);
+}
+
+#buttons{
+    flex:1;
+    max-width: 100px;
+    background: var(--pink);
+    display: flex;
+    flex-direction: column;
+}
+
+#mic{
+    width: 100%;
+    height: 100%;
+    flex:1;
+    background: var(--pink);
+}
+
+#micimg{
+    width: 40px;
+    height: 40px;
+}
+
+#speaker{
+    flex:1;
+    width: 100%;
+    height: 100%;
+    background: var(--purple);
+}
+
+#speakerimg{
+    width: 40px;
+    height: 40px;
+}
