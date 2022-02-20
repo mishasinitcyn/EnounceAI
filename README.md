@@ -23,7 +23,7 @@
 3.) Express
 
 
-Authors: Hooyar Hamraz, Misha Sinitcyn, Nicholas Zhang, Rohan Parmar
+**Authors: Hooyar Hamraz, Misha Sinitcyn, Nicholas Zhang, Rohan Parmar**
 
 
 Hooyar Hamraz: hha122@sfu.ca
