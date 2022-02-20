@@ -22,9 +22,14 @@
 
 3.) Express
 
+
 Authors: Hooyar Hamraz, Misha Sinitcyn, Nicholas Zhang, Rohan Parmar
 
+
 Hooyar Hamraz: hha122@sfu.ca
+
 Misha Sinitcyn: msa242@sfu.ca
+
 Nicholas Zhang: nza4@sfu.ca
+
 Rohan Parmar: rpa56@sfu.ca
