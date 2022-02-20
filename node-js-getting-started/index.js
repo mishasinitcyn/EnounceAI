@@ -8,8 +8,8 @@ app.set('view engine', 'ejs')
 
 
 const OpenAI = require('openai-api');
-const OPENAI_API_KEY = "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";
-
+//const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY =  "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";
 const openai = new OpenAI(OPENAI_API_KEY);
 
 const { Pool } = require('pg');
